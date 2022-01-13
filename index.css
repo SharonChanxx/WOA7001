@@ -1,0 +1,44 @@
+h1{
+    font-weight: 700;
+	font-size: 58px;
+    color: black;
+}
+
+img {
+	border-radius: 50%
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.row{
+	text-align:center;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
